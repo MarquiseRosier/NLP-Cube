@@ -23,8 +23,7 @@ class Cube(object):
         self._verbose = verbose   
         
 
-    def load(self, language_code, version="latest", local_models_repository=None, local_embeddings_file=None, tokenization=True, compound_word_expanding=False, tagging=True,
-             lemmatization=True, parsing=True):
+    def load(self, language_code, version="latest", local_models_repository=None, local_embeddings_file=None, tokenization=True, compound_word_expanding=False, tagging=True, lemmatization=True, parsing=True):
         """
         Loads the pipeline with all available models for the target language.
 
@@ -62,7 +61,7 @@ class Cube(object):
         if self._verbose:
             sys.stdout.write('\tLoading embeddings ... \n')
         if not local_models_repository: # load an official model which has an embeddings file
-            embeddings.read_from_file(os.path.join(self._embeddings_repository, self.metadata.embeddings_file_name), None,
+            embeddings.read_from_file(os.path.join(model_store_object.embeddings_repository, self.metadata.embeddings_file_name), None,
                                   full_load=False)
         else:
             if local_embeddings_file == None and self.metadata == None:
