@@ -1,5 +1,7 @@
 # NLP-Cube
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/adobe/NLP-Cube.svg)](https://greenkeeper.io/)
+
 NLP-Cube is an opensource Natural Language Processing Framework with support for languages which are included in the [UD Treebanks](http://universaldependencies.org/). Use NLP-Cube if you need:
 * Sentence segmentation
 * Tokenization
