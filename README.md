@@ -1,5 +1,5 @@
-[![Version](https://img.shields.io/badge/version-0.1.0.3-brightgreen.svg)
-[![Python 3](https://img.shields.io/badge/python-3-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0.3-brightgreen.svg)
+![Python 3](https://img.shields.io/badge/python-3-blue.svg)
 
 # NLP-Cube
 
