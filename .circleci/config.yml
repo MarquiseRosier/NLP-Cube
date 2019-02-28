@@ -9,6 +9,7 @@ jobs:
           name: init .pypirc
           command: |
             echo -e "[pypi]" >> ~/.pypirc
+            cd pwd
       - run:
           name: create packages
           command: |
